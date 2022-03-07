@@ -1,0 +1,147 @@
+
+.header{
+    max-width: 1270px;
+    margin: auto;
+}
+.menu{
+    margin-left:320px;
+    line-height: 3;
+}
+.menu li{
+    margin-left: 15px;
+}
+/* .menu li a{
+    display: ruby;
+} */
+.logo img{
+    width: 80px;
+}
+.home{
+    background: aliceblue;
+} 
+.banner-left{
+    margin-top:180px;
+}
+.btn-primary{
+    background:#8391fd;
+    border-color:#8391fd ;
+}
+.btn-primary:hover{
+    background:#63bcfc;
+    border-color:#63bcfc;
+
+}
+.accunts-section{
+    background:#8490ff;
+    margin-top: 40px;
+}
+.accunts-section .line1{
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Card-1 section */
+
+.box-section{
+    padding: 29px;
+}
+.box-1{
+    width: 350px;
+}
+.box-body p{
+    font-size: 12px;
+}
+.box-title{
+    background:#f9f9ff;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: auto;
+    line-height: 70px;
+}
+
+/* Card-2 section  */
+
+.card-body ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.card-body .card-link{
+    display: inline-block;
+    text-decoration: none;
+    background:#ffffff;
+    border:2px solid #8490ff;
+    color:#8490ff;
+    padding: 5px 15px;
+    font-size: 18px;
+    transition: .7s;
+}
+.card-body .card-link:hover{
+    background:#8490ff;
+    color: #fff;
+}
+
+.card-body{
+    box-shadow: 5px 5px 34px 10px #f0f1fc;
+   
+}
+.card{
+    box-shadow: 5px 5px 34px 10px #ddd;
+}
+.card .card-img-top{
+    width: 100px;
+}
+.card-body{}
+.card-body ul li{
+    margin-top: -1px;
+}
+.card-body .card-hover{
+    display: inline-block;
+    text-decoration: none;
+    background:#f8f9fa;
+    border:2px solid #ddd;
+    color:#45494c;
+    box-shadow: 5px 5px 10px 10px #ddd;
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: .7s;
+}
+.card-body .card-hover:hover{
+    background:#8490ff;
+    color: #fff;
+}
+.form-header{
+    text-align: center;
+}
+.form-header h3{
+    line-height: 0;
+}
+
+.form-left{
+    background:#f8f9fa;
+    box-shadow: 5px 10px 10px 5px #ddd;
+    padding: 40px;
+    text-align: center;
+
+}
+.btn.btn-info{
+    color: #fff;
+}
+
+.form-right{
+    margin-top: 100px;
+}
+.form-right h3{
+    margin-left: 29px;
+}
+.form-right ul{}
+.form-right ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer p{
+    padding: 20px;
+}
