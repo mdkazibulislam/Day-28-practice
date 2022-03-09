@@ -1,26 +1,34 @@
-
-.header{
-    max-width: 1270px;
-    margin: auto;
-}
-.menu{
-    margin-left:320px;
+/* header-section */
+.header{}
+.header-left{
     line-height: 3;
 }
-.menu li{
-    margin-left: 15px;
-}
-/* .menu li a{
-    display: ruby;
-} */
-.logo img{
+.header-left img{
     width: 80px;
+    margin-left: 50px;
 }
-.home{
+.header-right{}
+.header-right ul {
+    margin-left: 150px;
+  }
+.header-right ul li{
+    display: inline-block;
+    line-height: 3;
+}
+.header-right ul li a{
+    display: block;
+    margin-left:20px ;
+    padding: 0 20px;
+}
+
+/* banner-section */
+
+.banner{
     background: aliceblue;
 } 
 .banner-left{
     margin-top:180px;
+    margin-left: 50px;
 }
 .btn-primary{
     background:#8391fd;
@@ -43,22 +51,28 @@
 
 /* Card-1 section */
 
-.box-section{
-    padding: 29px;
+.card-1{
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
-.box-1{
-    width: 350px;
+.card-1 .card-body{
+    max-width: 100%; 
 }
-.box-body p{
-    font-size: 12px;
-}
-.box-title{
+.card-1 .card-title{
     background:#f9f9ff;
     width: 75px;
     height: 75px;
     border-radius: 50%;
     margin: auto;
     line-height: 70px;
+}
+.card-1 .card-subtitle {
+    font-size: 20px;
+}
+.card-1 .card-body ul{}
+.card-1 .card-body ul li{
+    margin-top: 30px;
 }
 
 /* Card-2 section  */
@@ -90,8 +104,9 @@
 .card{
     box-shadow: 5px 5px 34px 10px #ddd;
 }
-.card .card-img-top{
-    width: 100px;
+.card-img-top {
+    width: 120px;
+    margin-left: -120px;
 }
 .card-body{}
 .card-body ul li{
